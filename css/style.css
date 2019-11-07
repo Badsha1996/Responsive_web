@@ -1,0 +1,255 @@
+/*===============================================================================
+                ===========================================
+                +++++++++++++++DEFAULT VALUES++++++++++++++
+
+                    FONT FAMILY- Robot-condenced
+                    Turquoise Blue- #47E6E6 (line,links,icons and background)
+                    Outer Space-    #1E2B2B (Heading)
+                    Mineral Green-  #3F5957 (paragraph)
+                    white-          #fff    (text with black backgroud)
+                    Black-          #000    
+                ===========================================
+=================================================================================*/
+
+/*===============================================================================
+        **********Genaral code for stylling of the website*******
+=================================================================================*/
+html,
+body {
+    height: 100%
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #3F5957;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+body {
+
+    font-family: "Roboto Condensed", "sans-serif"
+}
+
+/*===============================================================================
+                ***********Home-section-stylling*************
+             ++++++++++++[HERO BACKGROUND IMAGE]+++++++++++++++++
+==================================================================================*/
+
+#home {
+    height: 100%
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+
+}
+
+#home-content-box {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#heading h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+
+#heading h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*===============================================================================
+                ***********Home-section-stylling*************
+             +++++++++++++++++[PARALLEX-EFFECT]+++++++++++++++++
+==================================================================================*/
+.bg-parallex {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*================================================================================
+                         ********Button(generic)*********
+                    +++++++++++++[GHOST BUTTON EFFECT]+++++++++++
+==================================================================================*/
+
+.btn-general {
+    border-width: 3px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #1E2B2B;
+}
+
+
+.btn-blue {
+    border-color: #47E6E6;
+    color: #47E6E6;
+    margin-left: 20px;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color:#47E6E6;
+    color: #fff;
+}
+
+/*================================================================================
+                         ********ANIMATIONS*********
+                           ++++++++++++++++++++++++
+==================================================================================*/
+
+
+#heading {
+
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+    animation-duration: 0.5s;
+}
+
+/*================================================================================
+                         ********Content(generic)*********
+                           ++++++++++++++++++++++++
+==================================================================================*/
+.content {
+
+    padding: 60px 0 60px 0;
+}
+
+.content-heading {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.content-heading-underline {
+    width: 90px;
+    height: 4px;
+    background-color: #47E6E6;
+    margin: 0 auto 0 auto;
+}
+
+/*================================================================================
+                         ********Our cources(def-items)*********
+                           ++++++++++++++++++++++++
+==================================================================================*/
+.def-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.def-item-icon {
+
+    color: #47E6E6;
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+
+}
+
+.def-item:hover .def-item-icon i {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.def-item-heading h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.def-item-desc p {
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #3F5957;
+}
+
+/*================================================================================
+                         ********About section*********
+                           ++++++++++++++++++++++++
+==================================================================================*/
+
+#about-bg-image{
+    height: 700px;
+    width: 60%;
+    background-image: url(../img/115208.jpg);
+    float: right;
+    border-left: 100px solid #fff;
+    border-top: 700px solid transparent;
+}
+
+#content{
+    
+    float: left;
+    height: 700px;
+}
+#content-outter{
+    
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#content-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#about .content-heading h2{
+    text-align: left;
+    margin-left: 20px;
+}
+#about .content-heading .content-heading-underline{
+    margin: 0 0 25px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
